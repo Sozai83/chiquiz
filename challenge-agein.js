@@ -13,7 +13,7 @@ var Question =
 var question1 = new Question('Who is the prime minister in Australia in 2020?', ['1 : Scott Morrison', '2 : Donald Trump', '3 : Shinzo Abe'],1);
 var question2 = new Question('How many people live in Japan? ', ['1 : 125 million','2 : 200 million', '3 : 150 million', '4 : 100 million'],1);
 var question3 = new Question('How many times is Australia bigger than Japan? ', ['1 : 15 times', '2 : 20 times', '3 : 5 times', '4 : 30 times'],2);
-var question4 = new Question('Where is the capital in Australia ', ['1 : Camberra', '2 : Sydney', '3 : Melbourne', '4 : Tasmania'],1);
+var question4 = new Question('Where is the capital in Australia ', ['1 : Canberra', '2 : Sydney', '3 : Melbourne', '4 : Tasmania'],1);
 var question5 = new Question('Is learning code fun? ', ['1 : Not at all', '2 : Absolutely'],2);
 
 var questions = [question1, question2, question3, question4, question5];
