@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Section 5: Advanced JavaScript: Objects and Functions</title>
+        <link rel="stylesheet" type="text/css" href="quiz.css">
+    </head>
+
+    <body>
+        <h1>Section 5: Advanced JavaScript: Objects and Functions</h1>
+        <div class="quiz-wrapper">
+	        <button id="start" value="none">Start!</button>
+	        <button id="rule">How to play</button>
+	        <div id= 'showRule' class="displayNone">
+	        	<h3>--------------- How to Play this Quiz -----------------</h3>
+	        	<p>Open 'inspect' to see and  answer questions.</p>
+	        	<p>You can press 'cancel' to skip the question.</p>
+	        	<p>You can type 'exit' in the input, and quiz will finish.</p>
+	        </div>
+	      </div>
+        <script src="challenge-agein.js"></script>
+        <script type="text/javascript">
+        	document.getElementById('rule').addEventListener('click', function(){
+        		document.getElementById('showRule').classList.toggle('displayNone');
+        		document.getElementById('showRule').classList.toggle('displayBlock');
+        	});
+        	
+        </script>
+    </body>
+</html>

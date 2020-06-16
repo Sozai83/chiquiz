@@ -1,0 +1,26 @@
+body{
+	text-align: center;
+}
+
+.quiz-wrapper{
+	width:90%;
+	margin:0 auto;
+}
+
+button{
+	text-align: center;
+	margin:2% auto;
+	font-size:2rem;
+	padding:1%;
+	display:block;
+	border-radius:10px;
+	width:40%;
+}
+
+.displayNone{
+	display:none;
+}
+
+.displayBlock{
+	display:block;
+}
